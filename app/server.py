@@ -5,7 +5,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 
 def health_body():
-    return {"status": "ok"}
+    return {"status": "broken"}
 
 
 class Handler(BaseHTTPRequestHandler):
